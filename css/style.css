@@ -1,12 +1,12 @@
-header {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.header-header {
+header {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
 ul {
@@ -15,12 +15,38 @@ ul {
     flex-direction: row;
 }
 
+.top-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5%;    
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
 .jumbotron {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-left: 15%;    
+    margin-right: 15%;
+    flex-wrap: nowrap;
+    margin-top: 7%;
+}
+
+.jumbotron-paragraph {
+    padding-top: 4%;
+    padding-bottom: 3%;
 }
 
 h1 {
     text-align: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-left: 5%;    
+    margin-right: 5%;
 }

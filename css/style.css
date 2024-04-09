@@ -45,8 +45,41 @@ h1 {
 
 main {
     display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
+    flex-direction: column;
     margin-left: 5%;    
     margin-right: 5%;
+}
+
+.text-main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+}
+
+.prova {
+    display: flex;
+    align-items: flex-start;
+}
+
+/* perché ho dovuto specificare row? non è default? */
+.primasezione, .terzasezione {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.secondasezione {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+}
+
+.quartasezione {
+    display: flex;
+    flex-direction: column;
+}
+
+/* perché non si vede? */
+#newadventure {
+    background-image: url(./img/stars.svg);
 }

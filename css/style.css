@@ -4,12 +4,14 @@
     box-sizing: border-box;
 }
 
+/* perché non vedo immagine */
 header {
     display: flex;
     flex-direction: column;
+    background-image: url(/img/jumbo.png);
 }
 
-ul {
+.ulheader {
     display: flex;
     list-style-type: none;
     flex-direction: row;
@@ -94,4 +96,38 @@ main {
     justify-content: space-between;
     margin-left: 5%;    
     margin-right: 5%;
+}
+
+footer {
+    background-color: black;
+}
+
+.navigator {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-around;
+}
+
+.ulfooter, .textfooter {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+}
+
+.language {
+    display: flex;
+    flex-direction: row;
+    vertical-align: middle;
+}
+
+.socialnetwork, .ita {
+    width: 1rem;
+    margin: 1rem;
+    vertical-align: middle;
 }

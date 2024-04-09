@@ -39,6 +39,12 @@ ul {
     padding-bottom: 3%;
 }
 
+.firstbuttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 h1 {
     text-align: center;
 }
@@ -54,11 +60,6 @@ main {
     display: flex;
     flex-direction: column;
     margin-top: 2%;
-}
-
-.prova {
-    display: flex;
-    align-items: flex-start;
 }
 
 /* perché ho dovuto specificare row? non è default? */
@@ -82,4 +83,15 @@ main {
 /* perché non si vede? */
 #newadventure {
     background-image: url(./img/stars.svg);
+}
+
+#lastbutton {
+    margin: 3rem 30rem;
+}
+
+.lastlastsection {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;    
+    margin-right: 5%;
 }

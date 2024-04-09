@@ -1,0 +1,26 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.header-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+}
+
+.jumbotron {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}

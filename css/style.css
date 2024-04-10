@@ -69,7 +69,8 @@ header {
     margin: 1rem 2rem;
 }
 
-.download1:last-child {
+/* perché non funziona il colore */
+.downloadbuttons:last-child {
     background-color: #23272a;
     color: white;
 }
@@ -166,4 +167,9 @@ footer {
 
 .ulfooter>li, .pfooter {
     padding: 0.5rem;
+}
+
+div.container {
+    margin: 0 auto;
+    max-width: 1500px;
 }

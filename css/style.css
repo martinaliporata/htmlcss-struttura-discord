@@ -62,7 +62,7 @@ header {
 }
 
 .downloadbuttons>button {
-    border: solid 10px blue;
+    border: solid 10px transparent;
     padding: 0.1rem 1rem;
     border-radius: 10rem;
     margin: 1rem 2rem;

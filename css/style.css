@@ -8,7 +8,6 @@
 header {
     display: flex;
     flex-direction: column;
-    background-image: url(./img/jumbo.png);
 }
 
 .ulheader {
@@ -40,7 +39,7 @@ header {
     justify-content: center;
     flex-wrap: nowrap;
     padding: 7% 15%;
-    background-color: blue;
+    background-image: url(../img/jumbo.png);
 }
 
 .title {
@@ -70,7 +69,7 @@ header {
 }
 
 /* perché non funziona il colore */
-.downloadbuttons:last-child {
+.downloadbuttons > button:last-child {
     background-color: #23272a;
     color: white;
 }
@@ -90,6 +89,12 @@ main {
     display: flex;
     flex-direction: column;
     margin-top: 2%;
+    width: 40%;
+}
+
+.img-main {
+    width: 60;
+    padding-left: 4rem;
 }
 
 /* perché ho dovuto specificare row? non è default? */
@@ -122,8 +127,8 @@ main {
 .lastlastsection {
     display: flex;
     justify-content: space-between;
-    margin-left: 5%;    
-    margin-right: 5%;
+    margin: 5%;    
+    padding: 2rem;
 }
 
 footer {
@@ -167,9 +172,4 @@ footer {
 
 .ulfooter>li, .pfooter {
     padding: 0.5rem;
-}
-
-div.container {
-    margin: 0 auto;
-    max-width: 1500px;
 }
